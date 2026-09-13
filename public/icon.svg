@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5722"/>
+      <stop offset="100%" stop-color="#ee4d2d"/>
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff5f2"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  
+  <!-- Shopping Bag Handle -->
+  <path d="M196 160 C196 110, 316 110, 316 160" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+  
+  <!-- Shopping Bag Body -->
+  <path d="M136 170 L376 170 L356 410 C356 426, 342 438, 326 438 L186 438 C170 438, 156 426, 156 410 Z" fill="url(#bagGrad)" filter="url(#shadow)"/>
+  
+  <!-- Letter V inside bag -->
+  <path d="M210 220 L256 340 L302 220" fill="none" stroke="#ee4d2d" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Yellow Shopping Sparkle / Star Badge -->
+  <circle cx="346" cy="180" r="32" fill="#ffd200"/>
+  <polygon points="346,160 353,174 368,175 356,186 360,200 346,192 332,200 336,186 324,175 339,174" fill="#ee4d2d"/>
+</svg>

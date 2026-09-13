@@ -1,0 +1,8 @@
+{
+  "name": "VIETSHOP. VN",
+  "description": "Bộ sưu tập video mèo bơi lội siêu đáng yêu, mô phỏng hồ bơi mèo tương tác và khám phá những chú mèo thích nước.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
